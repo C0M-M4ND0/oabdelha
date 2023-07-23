@@ -4,8 +4,8 @@ metadata:
   name: wil-service
   namespace: dev
 spec:
+  selector:
+    app: wil
   ports:
     port: 80
     targetPort: 8888
-  selector:
-    app: wil
