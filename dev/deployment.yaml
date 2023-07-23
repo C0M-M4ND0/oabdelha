@@ -13,11 +13,11 @@ spec:
     metadata:
       labels:
         app: wil
-  spec:
-    containers:
-      image: wil42/playground:v2
-      name: wil-app
-      ports:
-        containerPort: 8888
+    spec:
+      containers:
+        image: wil42/playground:v2
+        name: wil-app
+        ports:
+          containerPort: 8888
 
 
