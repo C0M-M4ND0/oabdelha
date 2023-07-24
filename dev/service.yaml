@@ -4,10 +4,8 @@ metadata:
   name: wil-service
   namespace: dev
 spec:
-  type: LoadBalancer
   selector:
     app: wil
   ports:
   - port: 80
     targetPort: 8888
-    nodePort: 30007
